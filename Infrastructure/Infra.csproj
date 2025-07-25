@@ -28,8 +28,9 @@
   <ItemGroup>
     <ProjectReference Include="..\Application\Application.csproj" />
     <ProjectReference Include="..\Domain\Domain.csproj" />
-    <ProjectReference Include="..\Naxxum.JobyHunter.Authentication.Application\Authentication.Application.csproj" />
   </ItemGroup>
+
+ 
 
  
 

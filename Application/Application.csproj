@@ -17,12 +17,16 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.3.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Naxxum.JobyHunter.Authentication.Domain\Authentication.Domain.csproj" />
-  </ItemGroup>
+  
 
   <ItemGroup>
     <Folder Include="Mapper\" />
+  </ItemGroup>
+
+  
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
 </Project>
